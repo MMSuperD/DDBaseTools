@@ -13,6 +13,7 @@
 		4AACDB4323303C5D00CD0B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AACDB4223303C5D00CD0B6C /* Assets.xcassets */; };
 		4AACDB4623303C5D00CD0B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AACDB4423303C5D00CD0B6C /* LaunchScreen.storyboard */; };
 		4AACDB4923303C5D00CD0B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACDB4823303C5D00CD0B6C /* main.m */; };
+		4AACDB5123303CFF00CD0B6C /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACDB5023303CFF00CD0B6C /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4AACDB4523303C5D00CD0B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AACDB4723303C5D00CD0B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AACDB4823303C5D00CD0B6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AACDB4F23303CFF00CD0B6C /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		4AACDB5023303CFF00CD0B6C /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				4AACDB4423303C5D00CD0B6C /* LaunchScreen.storyboard */,
 				4AACDB4723303C5D00CD0B6C /* Info.plist */,
 				4AACDB4823303C5D00CD0B6C /* main.m */,
+				4AACDB4F23303CFF00CD0B6C /* TestObject.h */,
+				4AACDB5023303CFF00CD0B6C /* TestObject.m */,
 			);
 			path = DDBaseToolsDemo;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				4AACDB3E23303C5D00CD0B6C /* ViewController.m in Sources */,
 				4AACDB4923303C5D00CD0B6C /* main.m in Sources */,
+				4AACDB5123303CFF00CD0B6C /* TestObject.m in Sources */,
 				4AACDB3B23303C5D00CD0B6C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
