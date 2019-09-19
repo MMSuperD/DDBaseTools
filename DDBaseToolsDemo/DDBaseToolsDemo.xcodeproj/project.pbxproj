@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3564387423330E0F00A450D2 /* UIView+propertyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3564387323330E0F00A450D2 /* UIView+propertyExtension.m */; };
+		3564387723332B4D00A450D2 /* UIColor+functionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3564387623332B4D00A450D2 /* UIColor+functionExtension.m */; };
 		35E650A72331FF350029AE18 /* UIFont+adaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E650A62331FF350029AE18 /* UIFont+adaptive.m */; };
 		4AACDB3B23303C5D00CD0B6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACDB3A23303C5D00CD0B6C /* AppDelegate.m */; };
 		4AACDB3E23303C5D00CD0B6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACDB3D23303C5D00CD0B6C /* ViewController.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3564387223330E0F00A450D2 /* UIView+propertyExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+propertyExtension.h"; sourceTree = "<group>"; };
+		3564387323330E0F00A450D2 /* UIView+propertyExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+propertyExtension.m"; sourceTree = "<group>"; };
+		3564387523332B4D00A450D2 /* UIColor+functionExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+functionExtension.h"; sourceTree = "<group>"; };
+		3564387623332B4D00A450D2 /* UIColor+functionExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+functionExtension.m"; sourceTree = "<group>"; };
 		35E650A52331FF350029AE18 /* UIFont+adaptive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+adaptive.h"; sourceTree = "<group>"; };
 		35E650A62331FF350029AE18 /* UIFont+adaptive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+adaptive.m"; sourceTree = "<group>"; };
 		4AACDB3623303C5D00CD0B6C /* DDBaseToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDBaseToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +64,10 @@
 			children = (
 				35E650A52331FF350029AE18 /* UIFont+adaptive.h */,
 				35E650A62331FF350029AE18 /* UIFont+adaptive.m */,
+				3564387223330E0F00A450D2 /* UIView+propertyExtension.h */,
+				3564387323330E0F00A450D2 /* UIView+propertyExtension.m */,
+				3564387523332B4D00A450D2 /* UIColor+functionExtension.h */,
+				3564387623332B4D00A450D2 /* UIColor+functionExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -168,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AACDB3E23303C5D00CD0B6C /* ViewController.m in Sources */,
+				3564387423330E0F00A450D2 /* UIView+propertyExtension.m in Sources */,
+				3564387723332B4D00A450D2 /* UIColor+functionExtension.m in Sources */,
 				4AACDB4923303C5D00CD0B6C /* main.m in Sources */,
 				4AACDB5123303CFF00CD0B6C /* TestObject.m in Sources */,
 				35E650A72331FF350029AE18 /* UIFont+adaptive.m in Sources */,
