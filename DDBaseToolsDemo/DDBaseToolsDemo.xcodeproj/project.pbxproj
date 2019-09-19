@@ -24,6 +24,7 @@
 		3564387323330E0F00A450D2 /* UIView+propertyExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+propertyExtension.m"; sourceTree = "<group>"; };
 		3564387523332B4D00A450D2 /* UIColor+functionExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+functionExtension.h"; sourceTree = "<group>"; };
 		3564387623332B4D00A450D2 /* UIColor+functionExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+functionExtension.m"; sourceTree = "<group>"; };
+		3564388623336C5B00A450D2 /* CatergoryHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatergoryHeaderFile.h; sourceTree = "<group>"; };
 		35E650A52331FF350029AE18 /* UIFont+adaptive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+adaptive.h"; sourceTree = "<group>"; };
 		35E650A62331FF350029AE18 /* UIFont+adaptive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+adaptive.m"; sourceTree = "<group>"; };
 		4AACDB3623303C5D00CD0B6C /* DDBaseToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDBaseToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,9 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356438842333689400A450D2 /* HeaderFile */ = {
+			isa = PBXGroup;
+			children = (
+				3564388623336C5B00A450D2 /* CatergoryHeaderFile.h */,
+			);
+			path = HeaderFile;
+			sourceTree = "<group>";
+		};
 		35E650A22331FDCF0029AE18 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				356438842333689400A450D2 /* HeaderFile */,
 				35E650A32331FE030029AE18 /* Category */,
 			);
 			path = Class;
