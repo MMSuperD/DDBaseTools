@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350B602B235D43870067CDC4 /* UIDevice+deviceName.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B602A235D43870067CDC4 /* UIDevice+deviceName.m */; };
 		3564387423330E0F00A450D2 /* UIView+propertyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3564387323330E0F00A450D2 /* UIView+propertyExtension.m */; };
 		3564387723332B4D00A450D2 /* UIColor+functionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3564387623332B4D00A450D2 /* UIColor+functionExtension.m */; };
 		3564388E2334730B00A450D2 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 3564388D2334730B00A450D2 /* UIImage+Blur.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350B6029235D43870067CDC4 /* UIDevice+deviceName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+deviceName.h"; sourceTree = "<group>"; };
+		350B602A235D43870067CDC4 /* UIDevice+deviceName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+deviceName.m"; sourceTree = "<group>"; };
 		3564387223330E0F00A450D2 /* UIView+propertyExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+propertyExtension.h"; sourceTree = "<group>"; };
 		3564387323330E0F00A450D2 /* UIView+propertyExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+propertyExtension.m"; sourceTree = "<group>"; };
 		3564387523332B4D00A450D2 /* UIColor+functionExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+functionExtension.h"; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				35643890233473C200A450D2 /* UIImage+Extension.m */,
 				356438922334742100A450D2 /* UIImage+Reduce.h */,
 				356438932334742100A450D2 /* UIImage+Reduce.m */,
+				350B6029235D43870067CDC4 /* UIDevice+deviceName.h */,
+				350B602A235D43870067CDC4 /* UIDevice+deviceName.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				356438942334742100A450D2 /* UIImage+Reduce.m in Sources */,
 				3564387423330E0F00A450D2 /* UIView+propertyExtension.m in Sources */,
 				3564388E2334730B00A450D2 /* UIImage+Blur.m in Sources */,
+				350B602B235D43870067CDC4 /* UIDevice+deviceName.m in Sources */,
 				3564387723332B4D00A450D2 /* UIColor+functionExtension.m in Sources */,
 				4AACDB4923303C5D00CD0B6C /* main.m in Sources */,
 				4AACDB5123303CFF00CD0B6C /* TestObject.m in Sources */,

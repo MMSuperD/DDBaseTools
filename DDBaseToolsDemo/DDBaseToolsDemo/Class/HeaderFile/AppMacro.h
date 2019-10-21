@@ -24,39 +24,41 @@
 //导航栏高度
 #define NVA_HEIGHT (IS_IPHONE_XXX == YES ? 88.f : 64.f)
 
-//判断8
-#define IS_IPHONE6  (SCREEN_SWIDTH == 375 &&  SCREEN_SHEIGHT == 667)
+#define UISCREEN_CURRENTMODE ([UIScreen instancesRespondToSelector:@selector(currentMode)])
+//判断设备类型
+// 判断是否是iPhone 4
+#define IS_IPHONE_4 ([UIScreen mainScreen].bounds.size.height == 480)
 
-//判断plus
-#define IS_IPHONE6P  (SCREEN_SWIDTH == 414 &&  SCREEN_SHEIGHT == 736)
+// 判断是否是iPhone 5
+#define IS_IPHONE_5 (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+// 判断是否是iPhone  6, 7, 8
+#define IS_IPHONE_678 (UISCREEN_CURRENTMODE ? (CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size)) : NO)
+// 判断是否是iPhone 6, 7, 8 plus
+#define IS_IPHONE_678_PLUS (UISCREEN_CURRENTMODE ? (CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size)) : NO)
 
-//判断iPhoneX
-#define IS_iPhoneX (SCREEN_SWIDTH == 375 &&  SCREEN_SHEIGHT == 812)
+// 判断是否是iPhone X
+#define IS_IPHONE_X (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
-//判断iPHoneXS
-#define IS_IPHONE_XS (SCREEN_SWIDTH == 375 &&  SCREEN_SHEIGHT == 812)
+// 判断是否是iPhone XR
+#define IS_IPHONE_X_R (UISCREEN_CURRENTMODE? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
 
-//判断iPhoneXR
-#define IS_IPHONE_XR (SCREEN_SWIDTH == 414 &&  SCREEN_SHEIGHT == 896)
+// 判断是否是iPhone XS
+#define IS_IPHONE_X_S (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
-//判断iPhoneXS Max
-#define IS_IPHONE_XS_Max (SCREEN_SWIDTH == 414 &&  SCREEN_SHEIGHT == 896)
+// 判断是否是iPhone X Max
+#define IS_IPHONE_X_MAX (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
 
-//判断iPHoneXS
-#define IS_IPHONE_11 (SCREEN_SWIDTH == 375 &&  SCREEN_SHEIGHT == 812)
+// 判断是否是iPhone 11
+#define IS_IPHONE_11 (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
 
-//判断iPhoneXR
-#define IS_IPHONE_11_Pro (SCREEN_SWIDTH == 414 &&  SCREEN_SHEIGHT == 896)
+// 判断是否是iPhone 11 PRO
+#define IS_IPHONE_11_PRO (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
-//判断iPhoneXS Max
-#define IS_IPHONE_11_Pro_Max (SCREEN_SWIDTH == 414 &&  SCREEN_SHEIGHT == 896)
+// 判断是否是iPhone 11 PROMAX
+#define IS_IPHONE_11_PROMAX (UISCREEN_CURRENTMODE ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
 
-#define IPHONE_X \
-({BOOL isPhoneX = NO;\
-if (@available(iOS 11.0, *)) {\
-isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
-}\
-(isPhoneX);})
+//判断是否是iphoneX 刘海 系列的
+#define IS_IPHONE_BAND ( IS_IPHONE_X == YES || IS_IPHONE_X_R == YES || IS_IPHONE_X_S == YES || IS_IPHONE_X_MAX == YES || IS_IPHONE_11 == YES || IS_IPHONE_11_PRO == YES || IS_IPHONE_11_PROMAX == YES)
 
 // 是否是IPhoneX 系列刘海屏
 #define IS_IPHONE_XXX ({\

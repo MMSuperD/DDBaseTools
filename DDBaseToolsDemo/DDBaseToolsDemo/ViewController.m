@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CatergoryHeaderFile.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSLog(@"%@",[UIDevice deviceName]);
+    
+   BOOL hh = [UIDevice instancesRespondToSelector:@selector(currentMode)];
+    
+    NSLog(@"%d",hh);
 }
 
 

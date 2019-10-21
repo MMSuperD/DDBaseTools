@@ -1,21 +1,25 @@
 //
-//   FileName:  CatergoryHeaderFile.h
+//   FileName:  UIDevice+deviceName.h
 //   ProjectName:  DDBaseToolsDemo
 //  Organization:  Copyright (c) Hello Technologies Co., Ltd. ____YEAR___. All rights reserves.
 //
 //  Description:
 //  Author:  Fan(王丹)
-//  Create:  2019/9/19
+//  Create:  2019/10/21
 //  CompanyName:  通华金科
 //  This head path is “~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist”
 
-#ifndef CatergoryHeaderFile_h
-#define CatergoryHeaderFile_h
 
-#import "UIFont+adaptive.h"
-#import "UIView+propertyExtension.h"
-#import "UIColor+functionExtension.h"
-#import "UIDevice+deviceName.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 
-#endif /* CatergoryHeaderFile_h */
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIDevice (deviceName)
+
++ (NSString *)deviceName;
+
+@end
+
+NS_ASSUME_NONNULL_END
