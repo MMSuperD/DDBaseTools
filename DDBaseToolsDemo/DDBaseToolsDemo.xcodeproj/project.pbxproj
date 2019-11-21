@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		350B602B235D43870067CDC4 /* UIDevice+deviceName.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B602A235D43870067CDC4 /* UIDevice+deviceName.m */; };
+		3511F62D2386635C005475F6 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511F62C2386635C005475F6 /* NSDictionary+NilSafe.m */; };
+		3511F63323866859005475F6 /* UILabel+CreateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511F63223866859005475F6 /* UILabel+CreateExtension.m */; };
+		3511F63623867049005475F6 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511F63523867049005475F6 /* UIImage+QRCode.m */; };
+		3511F63923867114005475F6 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511F63823867114005475F6 /* UIViewController+Present.m */; };
 		352FC02F235FEDA500FAC6A8 /* ReachablityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 352FC02E235FEDA500FAC6A8 /* ReachablityTool.m */; };
 		352FC032235FF15600FAC6A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352FC031235FF15600FAC6A8 /* SystemConfiguration.framework */; };
 		352FC035235FF1F200FAC6A8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 352FC033235FF1F100FAC6A8 /* Reachability.m */; };
@@ -30,6 +34,14 @@
 /* Begin PBXFileReference section */
 		350B6029235D43870067CDC4 /* UIDevice+deviceName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+deviceName.h"; sourceTree = "<group>"; };
 		350B602A235D43870067CDC4 /* UIDevice+deviceName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+deviceName.m"; sourceTree = "<group>"; };
+		3511F62B2386635C005475F6 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		3511F62C2386635C005475F6 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		3511F63123866859005475F6 /* UILabel+CreateExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+CreateExtension.h"; sourceTree = "<group>"; };
+		3511F63223866859005475F6 /* UILabel+CreateExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CreateExtension.m"; sourceTree = "<group>"; };
+		3511F63423867049005475F6 /* UIImage+QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		3511F63523867049005475F6 /* UIImage+QRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+		3511F63723867114005475F6 /* UIViewController+Present.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
+		3511F63823867114005475F6 /* UIViewController+Present.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
 		352FC02D235FEDA500FAC6A8 /* ReachablityTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachablityTool.h; sourceTree = "<group>"; };
 		352FC02E235FEDA500FAC6A8 /* ReachablityTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachablityTool.m; sourceTree = "<group>"; };
 		352FC031235FF15600FAC6A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -132,8 +144,12 @@
 			children = (
 				35E650A52331FF350029AE18 /* UIFont+adaptive.h */,
 				35E650A62331FF350029AE18 /* UIFont+adaptive.m */,
+				3511F62B2386635C005475F6 /* NSDictionary+NilSafe.h */,
+				3511F62C2386635C005475F6 /* NSDictionary+NilSafe.m */,
 				3564387223330E0F00A450D2 /* UIView+propertyExtension.h */,
 				3564387323330E0F00A450D2 /* UIView+propertyExtension.m */,
+				3511F63123866859005475F6 /* UILabel+CreateExtension.h */,
+				3511F63223866859005475F6 /* UILabel+CreateExtension.m */,
 				3564387523332B4D00A450D2 /* UIColor+functionExtension.h */,
 				3564387623332B4D00A450D2 /* UIColor+functionExtension.m */,
 				3564388C2334730B00A450D2 /* UIImage+Blur.h */,
@@ -142,8 +158,12 @@
 				35643890233473C200A450D2 /* UIImage+Extension.m */,
 				356438922334742100A450D2 /* UIImage+Reduce.h */,
 				356438932334742100A450D2 /* UIImage+Reduce.m */,
+				3511F63423867049005475F6 /* UIImage+QRCode.h */,
+				3511F63523867049005475F6 /* UIImage+QRCode.m */,
 				350B6029235D43870067CDC4 /* UIDevice+deviceName.h */,
 				350B602A235D43870067CDC4 /* UIDevice+deviceName.m */,
+				3511F63723867114005475F6 /* UIViewController+Present.h */,
+				3511F63823867114005475F6 /* UIViewController+Present.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -261,12 +281,16 @@
 				3564388E2334730B00A450D2 /* UIImage+Blur.m in Sources */,
 				350B602B235D43870067CDC4 /* UIDevice+deviceName.m in Sources */,
 				3564387723332B4D00A450D2 /* UIColor+functionExtension.m in Sources */,
+				3511F63623867049005475F6 /* UIImage+QRCode.m in Sources */,
 				4AACDB4923303C5D00CD0B6C /* main.m in Sources */,
 				4AACDB5123303CFF00CD0B6C /* TestObject.m in Sources */,
 				35643891233473C200A450D2 /* UIImage+Extension.m in Sources */,
 				352FC039235FFD5200FAC6A8 /* NetworkSpeed.m in Sources */,
 				35E650A72331FF350029AE18 /* UIFont+adaptive.m in Sources */,
 				352FC02F235FEDA500FAC6A8 /* ReachablityTool.m in Sources */,
+				3511F63923867114005475F6 /* UIViewController+Present.m in Sources */,
+				3511F62D2386635C005475F6 /* NSDictionary+NilSafe.m in Sources */,
+				3511F63323866859005475F6 /* UILabel+CreateExtension.m in Sources */,
 				4AACDB3B23303C5D00CD0B6C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72NKMXC74G;
 				INFOPLIST_FILE = DDBaseToolsDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72NKMXC74G;
 				INFOPLIST_FILE = DDBaseToolsDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

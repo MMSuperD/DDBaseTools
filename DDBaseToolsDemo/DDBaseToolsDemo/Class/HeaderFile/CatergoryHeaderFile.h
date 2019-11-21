@@ -16,6 +16,8 @@
 #import "UIView+propertyExtension.h"
 #import "UIColor+functionExtension.h"
 #import "UIDevice+deviceName.h"
+#import "UILabel+CreateExtension.h"
+#import "NSDictionary+NilSafe.h"
 
 
 #endif /* CatergoryHeaderFile_h */
