@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 按照给与的比例裁剪
  * @param scale 裁剪的长宽比
- * @return
+ * @return UIImage 
  */
 - (UIImage *)clipImageInScale:(CGFloat)scale;
 /**

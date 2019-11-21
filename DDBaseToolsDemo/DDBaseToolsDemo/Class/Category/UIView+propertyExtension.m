@@ -153,7 +153,7 @@ const char * kCALL_BACK = "_kCALL_BACK";
 
 - (void)ClickHandler:(UITapGestureRecognizer *)recognizer
 {
-    void(^callback)() = objc_getAssociatedObject(self, kCALL_BACK);
+    void(^callback)(void) = objc_getAssociatedObject(self, kCALL_BACK);
     if (callback) {
         callback();
     }
