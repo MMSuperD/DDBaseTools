@@ -94,6 +94,22 @@ const char * kCALL_BACK = "_kCALL_BACK";
     self.frame = newframe;
 }
 
+- (CGFloat)centerX {
+    return self.center.x;
+}
+
+- (void)setCenterX:(CGFloat)centerX {
+    self.center = CGPointMake(centerX, self.center.y);
+}
+
+- (CGFloat)centerY {
+    return self.center.y;
+}
+
+- (void)setCenterY:(CGFloat)centerY {
+    self.center = CGPointMake(self.center.x, centerY);
+}
+
 
 #pragma --mark
 #pragma --mark border
@@ -128,6 +144,17 @@ const char * kCALL_BACK = "_kCALL_BACK";
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius  = radius;
 }
+
+- (UIViewController *)viewController {
+    for (UIView *view = self; view; view = view.superview) {
+        UIResponder *nextResponder = [view nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
+    }
+    return nil;
+}
+
 
 #pragma --mark
 #pragma --mark Remove all subviews

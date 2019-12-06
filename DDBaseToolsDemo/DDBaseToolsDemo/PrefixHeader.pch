@@ -1,0 +1,23 @@
+//
+//   FileName:  PrefixHeader.pch
+//   ProjectName:  DDBaseToolsDemo
+//  Organization:  Copyright (c) Hello Technologies Co., Ltd. ____YEAR___. All rights reserves.
+//
+//  Description:
+//  Author:  Fan
+//  Create:  2019/11/29
+//  CompanyName:  通华金科
+//  This head path is “~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist”
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppMacro.h"
+#import "AppCategoryFile.h"
+#import "AppNetworkingFile.h"
+#import "AppQuickWay.h"
+#import "AppCommentFile.h"
+#import "LocalUseCommonString.h"
+#import "AppThirdFramwork.h"
+
+#endif /* PrefixHeader_pch */

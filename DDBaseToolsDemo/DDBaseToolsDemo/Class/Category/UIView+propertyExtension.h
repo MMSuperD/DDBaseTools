@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat y;
 @property (nonatomic, assign) CGFloat width;
 @property (nonatomic, assign) CGFloat height;
+@property (nonatomic) CGFloat centerX;
+@property (nonatomic) CGFloat centerY;
 
 /**
  * @brief 边框颜色
@@ -49,6 +51,9 @@ NS_ASSUME_NONNULL_BEGIN
  * @brief 园角
  */
 @property (nonatomic, assign) CGFloat   radius;
+
+- (UIViewController *)viewController;
+
 
 /**
  *@brief 返回尺寸
