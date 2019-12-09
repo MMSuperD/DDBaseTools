@@ -31,7 +31,6 @@
     NSLog(@"order:%s",__FUNCTION__);
     [self addNvView];
     
-    self.currentPageShowType = ResultType_haveData;
     if (self.navigationController) {
          [ViewTools sharedInstance].currentNavViewController = self.navigationController;
     }
@@ -76,36 +75,6 @@
     self.titleLabel.text = title;
 }
 
-- (void)setCurrentPageShowType:(ResultType)currentPageShowType {
-    _currentPageShowType = currentPageShowType;
-    switch (currentPageShowType) {
-        case ResultType_error:
-        {   [self.view addSubview:self.noNetworkView];
-            [self.view bringSubviewToFront:self.noNetworkView];;
-            self.noNetworkView.hidden = NO;
-            [self addDefaultNoNetworkSubview];
-            break;
-        }
-        case ResultType_noData:
-        {
-            [self.view addSubview:self.noNetworkView];
-            [self.view bringSubviewToFront:self.noNetworkView];;
-            self.noNetworkView.hidden = NO;
-            [self addDefaultNoNetworkSubview];
-            break;
-        }
-        case ResultType_haveData:
-        {
-            if (_noNetworkView) {
-                [self.noNetworkView removeFromSuperview];
-            }
-            break;
-        }
-
-        default:
-            break;
-    }
-}
 
 
 - (void)initNavRightSlideDelegate {
@@ -119,30 +88,6 @@
         [self.navigationController.navigationBar setHidden:YES];
     }
     self.view.backgroundColor = [UIColor whiteColor];
-    
-}
-
-// 添加网络差 和 无网络环境 界面  (默认是有 无网络界面的,如果需要重新定义这个界面,就需要重写这个方法)
-- (void)addDefaultNoNetworkSubview {
-   
-    switch (_currentPageShowType) {
-        case ResultType_error:
-        {
-            self.noNetworkView.backgroundColor = [UIColor orangeColor];
-            NSLog(@"这个是网络或者服务器出错导致的页面");
-                
-            break;
-        }
-        case ResultType_noData:
-        {
-            self.noNetworkView.backgroundColor = [UIColor blueColor];
-            NSLog(@"这个是没有数据时候的界面");
-            break;
-        }
-        default:
-            break;
-    }
-    
     
 }
 

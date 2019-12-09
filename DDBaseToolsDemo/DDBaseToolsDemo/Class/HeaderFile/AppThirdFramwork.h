@@ -13,5 +13,7 @@
 #define AppThirdFramwork_h
 
 #import "Masonry.h"
+#import "MJRefresh.h"
+#import "UIImage+GIF.h"
 
 #endif /* AppThirdFramwork_h */

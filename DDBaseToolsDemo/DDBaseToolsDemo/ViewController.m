@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "CatergoryHeaderFile.h"
 @interface ViewController ()
 
 @end

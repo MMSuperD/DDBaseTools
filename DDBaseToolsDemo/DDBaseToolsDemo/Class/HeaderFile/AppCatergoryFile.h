@@ -1,16 +1,16 @@
 //
-//   FileName:  CatergoryHeaderFile.h
+//   FileName:  AppCatergoryFile.h
 //   ProjectName:  DDBaseToolsDemo
 //  Organization:  Copyright (c) Hello Technologies Co., Ltd. ____YEAR___. All rights reserves.
 //
 //  Description:
-//  Author:  Fan(王丹)
-//  Create:  2019/9/19
+//  Author:  Fan
+//  Create:  2019/12/9
 //  CompanyName:  通华金科
 //  This head path is “~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist”
 
-#ifndef CatergoryHeaderFile_h
-#define CatergoryHeaderFile_h
+#ifndef AppCatergoryFile_h
+#define AppCatergoryFile_h
 
 #import "UIFont+adaptive.h"
 #import "UIView+propertyExtension.h"
@@ -20,4 +20,4 @@
 #import "NSDictionary+NilSafe.h"
 
 
-#endif /* CatergoryHeaderFile_h */
+#endif /* AppCatergoryFile_h */

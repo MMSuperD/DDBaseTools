@@ -13,10 +13,17 @@
 #define ddBastTools_h
 
 #import "AppEnum.h"
-#import "CatergoryHeaderFile.h"
+#import "AppCatergoryFile.h"
 #import "AppQuickWay.h"
 #import "AppMacro.h"
 #import "DDSingleton.h"
-#import "NetworkHeaderFile.h"
+#import "AppMacro.h"
+#import "AppNetworkingFile.h"
+#import "AppQuickWay.h"
+#import "AppCommentFile.h"
+#import "LocalUseCommonString.h"
+#import "AppThirdFramwork.h"
+#import "AppNetworkingFile.h"
+
 
 #endif /* ddBastTools_h */

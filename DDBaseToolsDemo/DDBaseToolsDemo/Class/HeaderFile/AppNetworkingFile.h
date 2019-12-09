@@ -1,18 +1,17 @@
 //
-//   FileName:  NetworkHeaderFile.h
-//   ProjectName:  DDBaseToolsDemo
+//   FileName:  AppNetworkingFile.h
+//   ProjectName:  XiaoTongLife
 //  Organization:  Copyright (c) Hello Technologies Co., Ltd. ____YEAR___. All rights reserves.
 //
 //  Description:
-//  Author:  Fan(王丹)
-//  Create:  2019/10/23
+//  Author:  Fan
+//  Create:  2019/10/24
 //  CompanyName:  通华金科
 //  This head path is “~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist”
 
-#ifndef NetworkHeaderFile_h
-#define NetworkHeaderFile_h
+#ifndef AppNetworkingFile_h
+#define AppNetworkingFile_h
 
-#import "ReaachablityTool.h"
+#import "ReachablityTool.h"
 
-
-#endif /* NetworkHeaderFile_h */
+#endif /* AppNetworkingFile_h */

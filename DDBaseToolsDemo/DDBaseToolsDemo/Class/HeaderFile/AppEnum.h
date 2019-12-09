@@ -15,12 +15,6 @@
 #pragma mark -- <只能object - c 文件引用> --
 #ifdef  __OBJC__
 
-typedef NS_ENUM(NSUInteger, ResultType) {
-    ResultType_error = 10,
-    ResultType_noData = 11,
-    ResultType_haveData = 12
-};
-
 
 #endif
 

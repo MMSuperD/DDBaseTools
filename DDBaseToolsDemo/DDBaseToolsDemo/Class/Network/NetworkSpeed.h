@@ -15,11 +15,11 @@
 /**
  *  @{@"received":@"100kB/s"}
  */
-FOUNDATION_EXTERN NSString *const kNetworkReceivedSpeedNotification;
+FOUNDATION_EXTERN NSString * _Nullable const kNetworkReceivedSpeedNotification;
 /**
  *  @{@"send":@"100kB/s"}
  */
-FOUNDATION_EXTERN NSString *const kNetworkSendSpeedNotification;
+FOUNDATION_EXTERN NSString * _Nullable const kNetworkSendSpeedNotification;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NetworkSpeed : NSObject

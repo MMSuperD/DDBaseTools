@@ -39,17 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 // 没有网络时候的View
 @property (nonatomic,strong)UIView  *noNetworkView;
 
-// 当前页面显示类型
-@property (nonatomic,assign)ResultType currentPageShowType;
 
 // 返回Blcok 
 @property (nonatomic,copy)ReturnBlock returnBlock;
 
 // 是否打开右滑导航控制器的右侧滑关闭页面的手势 默认打开 可以侧滑
 @property (nonatomic,assign)BOOL isTurnOnNavRightPanGesture;
-
-// 添加网络差 和 无网络环境 界面  (默认是有 无网络界面的,如果需要重新定义这个界面,就需要重写这个方法)
-- (void)addDefaultNoNetworkSubview;
 
 // 自定义导航栏 默认是有导航栏的 需要重写该方法
 - (void)addNvView;
