@@ -91,6 +91,7 @@
 		356B35D12390C1C600DE8A54 /* XTNetworkLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B35C92390C1C600DE8A54 /* XTNetworkLoadView.m */; };
 		356B35D22390C1C600DE8A54 /* XTNetworkSubmitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B35CB2390C1C600DE8A54 /* XTNetworkSubmitButton.m */; };
 		356B35D32390C1C600DE8A54 /* XTNetworkSubmitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B35CD2390C1C600DE8A54 /* XTNetworkSubmitView.m */; };
+		35A8264523AB574B00565D65 /* NSObject+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A8264423AB574A00565D65 /* NSObject+hook.m */; };
 		35E650A72331FF350029AE18 /* UIFont+adaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E650A62331FF350029AE18 /* UIFont+adaptive.m */; };
 		35E8DD39238BC580006F6EB9 /* NSObject+deleteNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8DD38238BC580006F6EB9 /* NSObject+deleteNil.m */; };
 		35E8DD3E238BCA22006F6EB9 /* XTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8DD3C238BCA22006F6EB9 /* XTBaseViewController.m */; };
@@ -289,6 +290,8 @@
 		356B35CC2390C1C600DE8A54 /* XTTipViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTipViewTool.h; sourceTree = "<group>"; };
 		356B35CD2390C1C600DE8A54 /* XTNetworkSubmitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNetworkSubmitView.m; sourceTree = "<group>"; };
 		356B35CE2390C1C600DE8A54 /* XTNetworkLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNetworkLoadView.h; sourceTree = "<group>"; };
+		35A8264323AB574A00565D65 /* NSObject+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+hook.h"; sourceTree = "<group>"; };
+		35A8264423AB574A00565D65 /* NSObject+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+hook.m"; sourceTree = "<group>"; };
 		35E650A52331FF350029AE18 /* UIFont+adaptive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+adaptive.h"; sourceTree = "<group>"; };
 		35E650A62331FF350029AE18 /* UIFont+adaptive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+adaptive.m"; sourceTree = "<group>"; };
 		35E8DD37238BC580006F6EB9 /* NSObject+deleteNil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+deleteNil.h"; sourceTree = "<group>"; };
@@ -638,6 +641,8 @@
 		35E650A32331FE030029AE18 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				35A8264323AB574A00565D65 /* NSObject+hook.h */,
+				35A8264423AB574A00565D65 /* NSObject+hook.m */,
 				35E650A52331FF350029AE18 /* UIFont+adaptive.h */,
 				35E650A62331FF350029AE18 /* UIFont+adaptive.m */,
 				3511F62B2386635C005475F6 /* NSDictionary+NilSafe.h */,
@@ -905,6 +910,7 @@
 				3567D8E2239DF09D00134541 /* NSButton+WebCache.m in Sources */,
 				4AACDB3B23303C5D00CD0B6C /* AppDelegate.m in Sources */,
 				3567D8DC239DF09D00134541 /* UIImage+GIF.m in Sources */,
+				35A8264523AB574B00565D65 /* NSObject+hook.m in Sources */,
 				356B35D12390C1C600DE8A54 /* XTNetworkLoadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
